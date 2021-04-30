@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,200;1,400&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url("water.jpg");
+	background-repeat:  no-repeat ;
+	background-position:  center center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.countdown-container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.big-text{
+	margin: 0px 10px;
+}
+h1{
+	text-align: center;
+	margin-top: -10rem;
+	font-family: 'Poppins', sans-serif;
+}
+.big-text{
+	font-size: 4rem;
+}
+.text{
+	font-size: 1rem;
+	font-weight:600;
+	margin-right: 10px;
+}
